@@ -11,7 +11,7 @@
 <div class="container">
   <div class="left"><img src="images/mezzle_character.svg"></div>
   <div class="right">
-      <div class="speechbubble"><h1>Hi there!</h1><p>I managed to mess up all my websites, so that's why you're seeing this message.  It'll be back, eventually.</p></div>
+      <div class="speechbubble"><h1>Hi there!</h1><p>I managed to break all my websites, so that's why you're seeing this message.  It'll be back, eventually.</p></div>
   </div>
 </div>
 </body>
