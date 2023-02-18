@@ -1,27 +1,8 @@
-<?php
-function getTitle()
-{
-    switch ($_SERVER['HTTP_HOST']) {
-        case 'mez.im':
-        case 'www.mez.im':
-          return 'mez.im';
-        case 'www.sourceguru.net':
-        case 'sourceguru.net':
-          return 'Source Guru';
-        case 'candidcoding.com':
-        case 'www.candidcoding.com':
-          return 'Candid Coding';
-    }
-
-    return $_SERVER['HTTP_HOST'];
-}
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title><?= getTitle(); ?> | I dun goofed</title>
+  <title>I dun goofed</title>
   <link rel="stylesheet" href="styles/normalize.css">
   <link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
   <link rel="stylesheet" href="styles/main.css">
